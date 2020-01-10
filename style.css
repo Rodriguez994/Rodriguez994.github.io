@@ -1,0 +1,48 @@
+body{
+   background-color: rgb(215, 224, 220);
+}
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: rgb(242, 177, 240);
+  font-size: 4vh;
+}
+
+.item {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(186, 186, 191);
+}
+div{
+    text-align: center;
+    border-style:groove;
+    border-color: rgb(255,0,0);
+    box-shadow:5px 5px 3px;
+    margin-bottom: 30px;
+    width:50vh;
+}
+a{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+   text-align: center;
+}
+li{
+   font-size:20px;
+}
